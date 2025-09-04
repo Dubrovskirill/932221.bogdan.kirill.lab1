@@ -75,7 +75,7 @@ ul {
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 50px);
+    grid-template-columns: repeat(3, 40px);
     grid-gap: 2px;
     border: 2px solid grey;
     padding: 2px; 
@@ -89,14 +89,14 @@ ul {
 .grid .cell {
     background-color: transparent;
     color: white;
-    padding: 2px;
     text-align: center;
     border: 2px solid grey;
     font-size: 12px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 30px;
+    align-items: flex-end; 
+    justify-content: center; 
+    min-height: 35px;
+    font-weight: bold;
 }
 
 .grid .cell.green {
