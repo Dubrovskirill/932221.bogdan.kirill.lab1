@@ -70,4 +70,56 @@ h2 {
 ul {
     padding-left: 50px;
 }
+.line {
+    text-decoration: line-through;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 2px;
+    border: 2px solid grey;
+    padding: 2px; 
+    margin-top: 20px;
+    width: fit-content;
+    float: right;
+    margin-left: 20px;
+    clear: none;
+}
 
+.grid .cell {
+    background-color: transparent;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    border: 2px solid grey;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+}
+
+.grid .cell.green {
+    background-color: green;
+    grid-row: span 2;
+}
+
+.grid .cell.red {
+    background-color: red;
+    grid-column: span 2;
+}
+
+.styles-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.styles-text {
+    flex: 1;
+}
+
+.styles-text h3 {
+    margin-top: 0;
+}
