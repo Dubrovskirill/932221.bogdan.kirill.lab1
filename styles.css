@@ -16,6 +16,9 @@ body {
     padding: 10px;
     font-size: 16px;
 }
+.header {
+    font-family: 'Courier New', Courier, monospace;
+}
 .square {
     float: left;
     margin: 5px 10px 5px 0;
@@ -38,6 +41,7 @@ body {
     padding: 15px;
     text-align: left;
     min-height: 500px;
+    line-height: 1.8;
 }
 .content h1 {
     margin-bottom: 10px;
@@ -60,8 +64,10 @@ h2 {
 
 .blue {
     color: cyan;
+    letter-spacing: 10px; 
 }
 
-.line {
-    text-decoration: line-through;
+ul {
+    padding-left: 50px;
 }
+
